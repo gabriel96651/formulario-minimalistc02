@@ -10,17 +10,17 @@
 <body>
     <section>
 
-        <form action="">
+        <form action="https://api.staticforms.xyz/submit" method="post">
 
             <div class="wraper">
                 <h1>Login</h1>
                 
                 <div class="inputbox">
-                    <input class="user" type="text" placeholder="username" autocomplete="off">
+                    <input class="user" type="text" placeholder="username" autocomplete="off" required>
                     <i class='bx bxs-user'></i>
                 </div>
                 <div class="inputbox">
-                    <input class="user" type="password" placeholder="password" autocomplete="off">
+                    <input class="user" type="password" placeholder="password" autocomplete="off" required minlength="8">
                     <i class='bx bxs-lock-alt' ></i>
                 </div>
                 <div class="remember">
@@ -32,6 +32,9 @@
 
                 <p class="don">don't have an account?<a href="#">register</a></p>
             </div>
+
+            <input type="hidden" name="accessKey" value="38a4a79b-c452-45f4-974d-6b08f4e57f41">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
             
         </form>
     </section>
