@@ -1,0 +1,118 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(minimal-landscape-k-wallpaper.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.wraper {
+    width: 420px;
+    background: transparent;
+    color: white;
+    padding: 30px 40px;
+    border: 1px solid white;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+
+}
+
+form h1 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+    padding: 16px;
+}
+
+.wraper .inputbox{
+width: 100%;
+height: 50px;
+margin: 30px 0;
+position: relative;
+transition: all 0.5s;
+}
+
+
+.inputbox .user{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 20px 75px 20px 20px;
+    font-size: 18px;
+    border-radius: 40px;
+    transition: all 0.5s;
+}
+
+.inputbox .user:focus {
+    background-color: white;
+}
+
+::placeholder{
+    color: rgba(0, 0, 0, 0.671);
+}
+
+.inputbox i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+
+.remember {
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0 15px;
+   
+}
+
+.remember a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    border: 1px solid rgb(51, 191, 247);
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.don {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.don a {
+    color: rgb(51, 191, 247);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
